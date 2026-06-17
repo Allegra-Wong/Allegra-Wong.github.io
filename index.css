@@ -115,11 +115,11 @@ img {
     max-width: 100%;
 }
 
-.work__image {
+a .work__image {
   transition: transform 0.2s ease;
 }
 
-.work__image:hover {
+a .work__image:hover {
   transform: scale(1.03);
 }
 
