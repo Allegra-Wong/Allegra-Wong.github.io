@@ -1,71 +1,190 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<body>
-  <a href="../index.html" class="back-button">
-  ← Back to Main Page
-</a>
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Air Sensor</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
+  <title>Air Quality Sensor</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png"
+        href="../images/temp-icon-smilefry-removebg-preview.png">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="../index.css">
-</head>  
+</head>
 
-<main role="main">
+<body class="project-page" id="top">
 
-    <section class="work" id="work">
+  <!-- Back to Main Page -->
+  <a href="../index.html" class="back-button">
+    ← Back to Main Page
+  </a>
+
+  <main>
+    <section class="work project-page" id="work">
       <div class="row">
-        <h2>Air Sensor</h2>
+
+        <h2>Air Quality Sensor</h2>
+
         <div class="work__boxes">
-        <div class="work__box">
-        <div class="work__boxes">
 
-  <!-- overview -->
-    <div class="work__text">
-      <h3>Overview</h3>
-      <p>
-        overview of the whole project
-      </p>
-    </div>
-  </div>
+          <!-- Overview -->
+          <div class="work__box project-overview">
+            <div class="work__text">
+              <h3>Overview</h3>
+              <p>
+                This Air Quality Sensor project was developed as part of the Ecolibrium program of Loisaida Inc.,
+                a non-profit organization located in Manhattan's Lower East Side. This organization promotes community-based
+                sustainability projects at the intersection of culture, art, media, and technology. The Ecolibrium
+                program focuese on climate literacy and environmental justice, examining local environment conditions with
+                the goal of improving public health and quality of life within the neighborhood. As a part of this initiative,
+                the air quality monitoring systems are intended to be deployed in local senior housing to provide insight into
+                air quality conditions experienced by the residents.
+              </p>
 
-  <!-- goal -->
-    <div class="work__text">
-      <h3>Goal</h3>
-      <p>
-        The goal of this project was to design and create a functional air sensor case for an air 
-        quality monitoring system at Loisaida Inc.
-      </p>
-    </div>
-  </div>
+              <p>
+                The goal of this project was to design and fabricate an enclosure for the air quality monitoriung system,
+                prioritizing easy of assembly, batch production, and maintainability. The system's electronics were also 
+                further developed to simplfy production. Throughout the summer, I worked on refining enclosure designs in
+                OnShape, which was used for ease of collaboration. Through this project, I gained additional hands-on 
+                expeerience in rapid prototyping, laser cutting, and iterative design.
+              </p>
 
-  <!-- Project Documentation -->
-    <div class="work__text">
-      <h3>Project Progression Presentations</h3>
-      <p>
-        Utilizing Canva, presentations were used to create progress reports throughout during the summer period
-        of the internship. Work progress was presented to peers, the director, and guests in the Loisaida community.
-        A sample presentation is available for reference. 
-      </p>
-    <a href="../pdfs/2026_07_17_Sensor_CAD_Dev_Week2.pdf"
-       target="_blank"
-       rel="noopener noreferrer"
-       class="project-link">
-      View Sample Progress Presentation (PDF) ↗
-    </a>
-    </div>
+              <p>
+                In addition to technical design work, I documented and communicated project developments through weekly
+                progress presentations. This experience allowed me to strengthen my skills in mechanical design, collaborative
+                work, and tehcnical communication while contributing to a community focused environmentalk initiative. 
+              </p>
 
+            </div>
+          </div>
 
+          <!-- laser cut version-->
+          <div class="work__box">
+            <div class="work__image-box">
+              <img
+                src="../images/air sensor/laser_cut.png"
+                class="work__image"
+                alt="Laser Cut Model">
+            </div>
+            <div class="work__text">
+              <h3>Lasercut Model</h3>
+              <p>
+                During my spring semester before the summer internship period, I worked on the initial laser cut model
+                of the air sensor case. I further developed this design, working on improving assembly of the case. Utilizing
+                The Cooper Union's equipment, I learned how to operate a laser cutter in order to fabricate the case pieces.
+                The walls are cut from 1/8th inch acrylic sheets and held secure by 4 screws. 
+              </p>
+              <p>
+                The objective of this model was to assemble 10 laser cut cases as proof of Loisaida's concept. This was achieved,
+                but this model had several shortcomings, such as maintenance requiring complete dissassembly and lengthy assembly
+                and fabrication time. Project funds allowed for the purchase of a 3D printer, which allowed for the transition from 
+                a laser cut model to a 3D printed model. This greatly expedited production and assembly time, and made maintenance
+                significantly easier.
+              </p>
+            </div>
+          </div>
 
-</div>
+          <!-- air sensor components-->
+          <div class="work__box">
+            <div class="work__image-box">
+              <img
+                src="../images/air sensor/component_break_down.png"
+                class="work__image"
+                alt="Air Sensor Components">
+            </div>
+          </div>
 
+          <!--exploded view-->
+          <div class="work__box">
+            <div class="work__image-box">
+              <img
+                src="../images/air sensor/exploded_view.png"
+                class="work__image"
+                alt="Exploded View of the 3D Printed Model">
+            </div>
+            <div class="work__text">
+              <h3>Exploded View of the Interior</h3>
+              <p>
+                All the electronic components are nested within a skeleton structure, which provides support
+                and organization for all the components. This skeleton can then slide in and out of a protective
+                and aesthetic case, allowing for easy access to the electronics for maintence and updates to the
+                software and UI. All the components of the case utilize snap-fits, slide-fits, and dovetail joints,
+                eliminating the use of screws or adhesives. 
+              </p>
+            </div>
+          </div>
 
+          <!--exploded view-->
+          <div class="work__box">
+            <div class="work__image-box">
+              <img
+                src="../images/air sensor/top_down_open_view.png"
+                class="work__image"
+                alt="Top View of the 3D Printed Model">
+            </div>
+            <div class="work__text">
+              <h3>Top-Open View</h3>
+              <p>
+                In addition to the simplification of the casing design, the power board was also reselected from the
+                original laser cut design to allow
+                for direct connection between the power board  with the battery and ESP, eliminating the need for 
+                USB-A and micro-USB connector cables. This in addition with the elimination of fasteners helped reduce
+                the cost of the overall assembly and improved organization inside the structure.
+              </p>
+            </div>
+          </div>
+
+          <!-- Project Documentation -->
+          <div class="work__box project-overview">
+            <div class="work__text">
+
+              <h3>Project Progression Presentations</h3>
+
+              <p>
+                Throughout the project, presentations were made in canva to document and present the project's
+                development to the program director, project groups, and people from the Loisaida community. A sample presentation is provided below for reference.
+              </p>
+
+                <!-- Embedded PDF Presentation -->
+                <div class="project-presentation">
+                <iframe
+                    src="../pdfs/2026_07_17_Sensor_CAD_Dev_Week2.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                    title="Air Sensor Progress Presentation"
+                    loading="lazy">
+                </iframe>
+                </div>
+
+              <!-- Open PDF Separately -->
+              <a
+                href="../pdfs/2026_07_17_Sensor_CAD_Dev_Week2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link">
+                Open Full Presentation (PDF) ↗
+              </a>
+
+            </div>
+          </div>
 
         </div>
-    </section>
 
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to Top Button -->
+  <a href="#top" class="back-to-top"
+     title="Back to Top">
+    <img
+      src="../images/background images/arrow-up.svg"
+      alt="Back to Top"
+      class="back-to-top__image">
+  </a>
 
 </body>
 </html>

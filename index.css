@@ -697,3 +697,37 @@ body:not(.user-is-tabbing) a:focus {
 .project-page .back-to-top {
     visibility: visible;
 }
+/* Full Width Project Sections */
+.project-page .project-overview {
+    display: block;
+}
+
+.project-page .project-overview .work__text {
+    max-width: 100%;
+}
+
+/* Embedded Presentation */
+.project-page .project-presentation {
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.project-page .project-presentation iframe {
+    display: block;
+    width: 100%;
+    height: 650px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+    .project-page .project-presentation iframe {
+        height: 400px;
+    }
+}
+
+/* Back to Top Button */
+.project-page .back-to-top {
+    visibility: visible;
+}
