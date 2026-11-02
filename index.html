@@ -6,13 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="images\temp-icon-smilefry-removebg-preview.png" />
 
-  <!-- Put your site title here -->
   <title>
     Allegra Wong
   </title>
 
   <meta name="description" content="I am a 3rd year Mechanical Engineering student at the Cooper Union.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Allegra Wong, CAD, Fabrication, MATLAB, LaTeX, Microsoft Office" />
   <link rel="stylesheet" href="index.css" />
 </head>
@@ -58,22 +56,15 @@
         <h2>My Work</h2>S
         <div class="work__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
-
-
-          <!--rikka cosplay, figure out how to maybe make the final picture clickable and it opens up to a series of progress images -->
-          <div class="work__box">
+          <!--Rikka -->
+          <div class="work__box" id ="Rikka">
             <div class="work__text">
               <h3>Cosplay Head</h3>
               <p>
-                A cosplay head inspired by the animated series Jujutsu Kaisen. 
-                The structure is constructed from aluminum wire, cardboard, 
-                paper mâché, foam clay, paint, and custom 3D-printed components. 
-                An Arduino-based control system uses servo motors and a Hall-effect 
-                sensor to actuate a blinking eye mechanism.
+                A wearable cosplay head with moving components inspired by the animated series Jujutsu Kaisen.
               </p>
               <ul class="work__list">
-                <li>Fusion 360</li>
+                <li>Soldering</li>
                 <li>Arduino</li>
                 <li>Paper Mache</li>
               </ul>
@@ -86,76 +77,87 @@
             </div>
             <div class="work__image-box">
               <a href="projects/cosplay-head.html">
-                <img src="images\20260616_000730.jpg"
+                <img src="images/rikka/rikka_side_view.jpg"
                     class="work__image"
                     alt="Cosplay Head Project" />
               </a>
             </div>
           </div>
-  <!-- ***** FWMAV project ***** -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Flapping Wing Micro Air Vehicle</h3>
-              <p>
-                A milimeter scale, flapping wing robot, designed as part of research 
-                for the Bio Inspired Robotics Lab at The Cooper Union. 
-              </p>
-              <ul class="work__list">
-                <li>Fusion 360</li>
-              </ul>
 
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Learn More <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="images\temp-FWMAV-pic.png" class="work__image" alt="Flapping Wing Micro Air Vehicle" />
-            </div>
-          </div>
-
-  <!-- ***** Loisaida project ***** -->
-          <div class="work__box">
+ <!-- ***** Loisaida project ***** -->
+          <div class="work__box" id="Sensor">
             <div class="work__text">
-              <h3>Air Sensor Case</h3>
+              <h3>Indoor Air Quality Sensor</h3>
               <p>
-                An air sensor case designed for an air quality monitoring project at 
+                An air sensor designed for an air quality monitoring project at 
                 Loisaida Inc., a non profit organization in the Lower East Side of Manhattan. 
               </p>
               <ul class="work__list">
                 <li>OnShape</li>
                 <li>Laser cutting</li>
+                <li>3D Printing</li>
+                <li>Soldering</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="projects/air-sensor.html" class="link__text">
                   Learn More <span>&rarr;</span>
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="../images/in-progress.png" class="work__image" alt="Air Sensor Case" />
+              <a href="projects/air-sensor.html">
+                <img src="images/air sensor/air_sensor_final_model.png"
+                    class="work__image"
+                    alt="Air Sensor Case" />
+              </a>
             </div>
           </div>
 
- <!-- *****Measurements Lab project; mass scale ***** -->
-          <div class="work__box">
+  <!-- ***** FWMAV project ***** -->
+          <div class="work__box" id="FWMAV">
             <div class="work__text">
-              <h3>Electronic Mass Scale</h3>
+              <h3>Flapping Wing Micro Air Vehicle (FWMAV)</h3>
               <p>
-                Load cell, laser cut wood, 3D printed components, arduino-based control system 
+                An exploratory design project for a milimeter scale, flapping wing robot, 
+                designed as part of research for the Bio Inspired Robotics Lab at The Cooper Union. 
               </p>
               <ul class="work__list">
-                <li>Arduino</li>
-                <li>Onshape</li>
+                <li>Fusion 360</li>
+                <li>3D Printing</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
+                <a href="projects/FWMAV.html" class="link__text">
                   Learn More <span>&rarr;</span>
                 </a>
               </div>
+            </div>
+            <div class="work__image-box">
+              <a href="projects/FWMAV.html">
+                <img src="images/FWMAV/FWMAV_cover_image.png"
+                    class="work__image"
+                    alt="Flapping Wing Micro Air Vehicle CAD" />
+              </a>
+            </div>
+          </div>
+
+
+
+ <!-- *****Measurements Lab project; mass scale ***** -->
+          <div class="work__box" id="Measurements Lab">
+            <div class="work__text">
+              <h3>Electronic Mass Scale</h3>
+              <p>
+                An electronic mass scale made for the for the Measurements Lab Class at The Cooper Union.
+                The project consists of a load cell, laser cut wood, 3D printed components, and an arduino-based
+                control system.
+              </p>
+              <ul class="work__list">
+                <li>Arduino</li>
+                <li>OnShape</li>
+              </ul>
+
             </div>
             <div class="work__image-box">
               <img src="images\weight test.jpg" class="work__image" alt="Project 3" />
@@ -175,22 +177,22 @@
     <div class="client__logos">
 
       <div class="client">
-        <img src="images\cow-hipper.png" alt="Cow Hipper" class="client__logo">
+        <img src="images\for fun images\cow-hipper.png" alt="Cow Hipper" class="client__logo">
         <a href="https://cad.onshape.com/documents/32cc2423c205eeb84627014a/w/1d0b57a167d114662e6183b4/e/aed2bd982296df5d4c8d2e9c?renderMode=0&uiState=6a2832649801e93a6bcc100d" class="btn btn--pink">Cow Hipper</a>
       </div>
 
       <div class="client">
-        <img src="images\physics-cow.png" alt="Physics Cow" class="client__logo">
+        <img src="images\for fun images\physics-cow.png" alt="Physics Cow" class="client__logo">
         <a href="https://cad.onshape.com/documents/8c2433281826e0ff23ea9815/w/e92fcd0c8089a44e7c3e111b/e/9034c1871f6a40342b3b5f5a?renderMode=0&uiState=6a283c00b373180c7ffd2e5c" class="btn btn--pink">Physics Cow</a>
       </div>
 
       <div class="client">
-        <img src="images\chiikawa.png" alt="Chiikawa Hipper" class="client__logo">
+        <img src="images\for fun images\chiikawa.png" alt="Chiikawa Hipper" class="client__logo">
         <a href="https://cad.onshape.com/documents/1af640975e271e325ac8c018/w/ce32aaa8389755555853f19e/e/b4e26e449d032aee2ced93e9?renderMode=0&uiState=6a282c69b31d89afc86d6bc0" class="btn btn--pink">Chiikawa Hipper</a>
       </div>
 
       <div class="client">
-        <img src="images\totoro-figurine.png" alt="Totoro Figurine" class="client__logo">
+        <img src="images\for fun images\totoro-figurine.png" alt="Totoro Figurine" class="client__logo">
         <a href="https://cad.onshape.com/documents/6a38296c5e3656a276cfb878/w/80ddc18d614ef1bfcf3bd1e5/e/d11542d3f9808564529415aa?renderMode=0&uiState=6a28348a05fd385095356ee6" class="btn btn--pink">Totoro Toy</a>
       </div>
 
@@ -211,19 +213,23 @@
               The Cooper Union. I enjoy blending art with mechanical design, 
               and I am passionate about projects that heavily involve various
               fabrication methods, such as 3D printing, machining, and sculpting.
-              In my junior year, I hope to gain more experience in machining and 
-              learn about welding. [intend to join tobbogan team and do an 
-              independent study for machining]....
+              During this semester I hope to gain more experience in mechanical
+              design and machining. As part of this, I have joined The Cooper Union's
+              Toboggan Team, where I am leading the design of the vehicle's brake
+              system. In January I will be going to Canada with the rest of the 
+              team to compete in the Great Northern Concrete Toboggan Race.
+              <p>
+
+              </p>
+              (The picture to the left was taken using a pinhole camera I made myself!)
             </p>
-            <!-- Provide a link to your resume -->
-            <a href="Allegra_Wong_Resume.pdf" class="btn" target="_blank">
+            <a href="pdfs/Wong_Allegra_Resume.pdf" class="btn" target="_blank">
               View Resume
             </a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="images\snoopypfp.jpg" alt="" />
+            <img class="about__photo" src="images/background images/pin_hole_cam_pic.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -252,8 +258,8 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href=www.linkedin.com/in/allegra-wong-895955259">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          <a href="https://www.linkedin.com/in/allegra-wong-895955259">
+            <img src="../images/background images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
       </ul>
@@ -272,7 +278,7 @@
   </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    <img src="./images/background images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
   <script src="./index.js"></script>
 </body>
