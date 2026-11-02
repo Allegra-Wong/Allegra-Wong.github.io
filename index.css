@@ -412,8 +412,12 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.416)), 
-        url('images/background images/greenbackground.jpg');
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, .85)
+    ),
+    url('images/background images/wallapaper.jpg');
+
     height: 100vh;
     background-size: cover;
     background-position: center;
