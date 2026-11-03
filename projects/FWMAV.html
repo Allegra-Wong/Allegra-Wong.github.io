@@ -76,23 +76,16 @@
                 as being laser cut fro acrylic and wood, and 3D printed.
               </p>
               <p>
-                A support structure in the center of the body holds two bearings
-                made from delrin tubing. These bearings allows the structure
-                holding the magnet, to spin on top of the encoders. The red regions
-                in the sketch indicate the space occupied by the encoders. Another 
-                structure attatches to the motors, allowing for the link to be connected
-                from the magnet structure to the motor strucutre. 
-                
-
-                In this design, a circular 3D-printed piece is attached to the 
-                motor, with a rod positioned at a fixed radial distance from 
-                the motor's axis of rotation. The 3D-printed component holding 
-                the magnet also includes a rod located the same radial distance 
-                from its own center of rotation. A linkage arm then connects 
-                these two rods, with the intention of transmitting the motor's 
-                rotational motion to the magnet so that it could rotate above the 
-                encoder.
+                A 3D printed support piece attatched to the center of the main
+                frame holds structures connected to the magnets that
+                spins on top of the encoders (the red region). These structures 
+                consists of a 3D printed material and a metal rod. The structures
+                on the left and right-most sides of the main structure attatch
+                to the motor. These structures are similarly made of 3D printed
+                material and metal rods. The linkage arm then connects these
+                structures, one pair on the right and left, via the metal rods. 
               </p>
+
             </div>
           </div>
 
@@ -101,10 +94,23 @@
             <div class="work__text">
               <h3>Graveyard of 3D Printed Components</h3>
               <p>
-               text...talk about what failed, the lego-esk linkage arms,
-               the 3D printed pin of the magnet enclosure, parts snapping, 
-               like the motor attatchment. the support structure constantly
-               snapping, 
+               Pictured below are various design iterations of the frame, support structures, 
+               magnet holders, motor attachments, and other components developed throughout 
+               the prototyping process. One of the most common challenges encountered was 
+               material failure due to repeated mechanical stresses during assembly and 
+               disassembly. 
+               <p>
+
+               </p>
+               For example, the linkage arm was initially designed with a 
+               snap-fit connection to the metal rods, but both laser-cut wood and 3D-printed 
+               components proved unable to withstand repeated attachment and removal without 
+               fracturing.
+                Similarly, the central support structure experienced failures due to stresses 
+                introduced during assembly. Initially this structure had two prongs
+                that were intserted into slots in the main frame, using a friction 
+                fit to hold in place. However, this design was unable to withstand
+                repeated assembly without snapping. 
               </p>
             </div>
           </div>
@@ -123,7 +129,7 @@
           <div class="work__box">
             <div class="work__image-box">
               <img
-                src="../images/FWMAV/view1.png"
+                src="../images/FWMAV/labeled_ver1.png"
                 class="work__image"
                 alt="Work in progress">
             </div>
@@ -131,7 +137,23 @@
             <div class="work__text">
               <h3>One Iteration of Mechanism</h3>
               <p>
-                text.
+                This iteration addressed the linkage arm's previous failure issues 
+                by replacing the snap-fit connection with a design that allowed the 
+                arm to slide fully onto the metal rods. The central support 
+                structure was also reinforced by incorporating attachment points at 
+                both the top and bottom of the main frame, rather than only at the 
+                top, improving its stability.
+              <P>
+              </P>
+                However, a  limitation remained in the magnet-rod 
+                attachment. This component utilized a 3D-printed extrusion 
+                as a rotating pin within a Delrin bearing, with a retaining cap to 
+                prevent the assembly from slipping out. Due to the dimensional 
+                tolerances and surface finish limitations of 3D printing, the pin 
+                could not rotate smoothly within the bearing. The resulting 
+                friction stresses eventually caused the pin to 
+                fracture, highlighting the limitations of using 3D-printed 
+                components for small, precision rotating components.
               </p>
             </div>
           </div>
@@ -140,7 +162,7 @@
           <div class="work__box">
             <div class="work__image-box">
               <img
-                src="../images/FWMAV/view2.png"
+                src="../images/FWMAV/labeled_ver2.png"
                 class="work__image"
                 alt="Work in progress">
             </div>
@@ -148,7 +170,23 @@
             <div class="work__text">
               <h3>Second Iteration of Linkage Mechanism</h3>
               <p>
-                text.
+               A subsequent iteration improved the central support structure 
+               by introducing a clamp-style design that attached to the top 
+               and bottom of the main frame, replacing the previous slot-based 
+               connection. The redesigned support snapped into place without 
+               requiring excessive force during assembly, while also maintaining 
+               a more consistent vertical position within the frame. This 
+               addressed the alignment inconsistencies and assembly difficulties 
+               encountered with the previous design.
+              </p>
+              <p>
+                Additionally, the 3D-printed pin on the magnet-rod attachment 
+                was replaced with a metal screw, allowing for smoother rotation 
+                within the Delrin bearing while reducing the risk of fracture. 
+                The screw head also served as a built-in stopper, sitting flush 
+                against the bearing and eliminating the need for a separate 
+                retaining cap. These modifications improved the assembly process, 
+                component durability, and rotational performance of the mechanism.
               </p>
             </div>
           </div>
@@ -167,7 +205,13 @@
             <div class="work__text">
               <h3>Mechanism Demonstration</h3>
               <p>
-                text.
+                The wing-flapping linkage mechanism has been removed from the 
+                assembly in the video to provide a clearer view. Theoretically, 
+                the linkage was intended to transmit rotational motion from the
+                motor assembly to the magnet assembly at a 1:1 angular velocity
+                ratio. However, as shown in the video demo, the linkage instead 
+                behaves as a crank, failing to produce the intended synchronized
+                rotation in both assemblies.
               </p>
             </div>
           </div>
@@ -177,7 +221,23 @@
             <div class="work__text">
               <h3>Concluding Statement</h3>
               <p>
-               i gave up on the project lol Realization that this mechanism may not be feasible.
+              Although the linkage mechanism successfully achieved synchorized
+              rotation in CAD, the physical prototype did not reproduce this
+              behavior. This discrepancy suggests that fabrication tolerances,
+              assembly alignment, and limitations in available fabrication 
+              equipment may have contributed to the design's failure. At the
+              millimeter scale, small dimensional errors can significantly impact
+              performance. These challenges do not necessarily indicate the 
+              mechanism is fundamentally flawed, but instead they highlight the
+              difficulties in translating a theoretically sound design into a
+              physical prototype using accessible methods and tools.
+              </p>
+              <p>
+                Future work would involve improving 3D printing and assembly
+                precision, refining tolerances, and further investigating 
+                component alignment effects on the mechanism's performance. 
+                This testing would help determine whether the linkage mechanism
+                could reliably achieve the desired motion under the project's constraints.
               </p>
             </div>
           </div>
